@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=CheckEnv
-#SBATCH --nodes=16
+#SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=9
 #SBATCH --time=00:05:00
