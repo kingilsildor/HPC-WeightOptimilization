@@ -15,7 +15,6 @@ module load Anaconda3/2025.06-1
 
 
 cd $HOME/HPC-WeightOptimilization
-source $(conda info --base)/etc/profile.d/conda.sh
 conda activate param_sweep
 
 srun python classification.py
