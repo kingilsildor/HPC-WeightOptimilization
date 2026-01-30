@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#SBATCH --partition=gpu_mig
-#SBATCH --gpus=1
-#SBATCH --job-name=InstallEnvironment
+#SBATCH --job-name=InstallEnv
+#SBATCH --nodes=16
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=9
 #SBATCH --time=01:00:00
+#SBATCH --partition=rome
 #SBATCH --output=slurm_output_%A.out
 
 module purge
